@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MSG001</key>
+	<string>view2</string>
+	<key>MSG002</key>
+	<string>view3</string>
+	<key>MSG003</key>
+	<string>webView</string>
+	<key>MSG005</key>
+	<string>view4</string>
+</dict>
+</plist>
