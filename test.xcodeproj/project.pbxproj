@@ -13,16 +13,16 @@
 		1854EC811E2118A300AE4E91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1854EC651E2118A300AE4E91 /* Main.storyboard */; };
 		1854EC821E2118A300AE4E91 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1854EC671E2118A300AE4E91 /* Info.plist */; };
 		1854EC831E2118A300AE4E91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1854EC681E2118A300AE4E91 /* main.m */; };
-		1854EC841E2118A300AE4E91 /* PlistReadUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1854EC6A1E2118A300AE4E91 /* PlistReadUtil.m */; };
-		1854EC851E2118A300AE4E91 /* RouterError.m in Sources */ = {isa = PBXBuildFile; fileRef = 1854EC6C1E2118A300AE4E91 /* RouterError.m */; };
 		1854EC861E2118A300AE4E91 /* urlMap.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1854EC6D1E2118A300AE4E91 /* urlMap.plist */; };
-		1854EC871E2118A300AE4E91 /* view2.m in Sources */ = {isa = PBXBuildFile; fileRef = 1854EC6F1E2118A300AE4E91 /* view2.m */; };
-		1854EC881E2118A300AE4E91 /* view3.m in Sources */ = {isa = PBXBuildFile; fileRef = 1854EC711E2118A300AE4E91 /* view3.m */; };
-		1854EC891E2118A300AE4E91 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1854EC731E2118A300AE4E91 /* ViewController.m */; };
-		1854EC8A1E2118A300AE4E91 /* webView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1854EC751E2118A300AE4E91 /* webView.m */; };
-		1854EC8B1E2118A300AE4E91 /* WXRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1854EC771E2118A300AE4E91 /* WXRouter.m */; };
 		1854EC8C1E2118A300AE4E91 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1854EC791E2118A300AE4E91 /* Info.plist */; };
 		1854EC8E1E2118A300AE4E91 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1854EC7C1E2118A300AE4E91 /* Info.plist */; };
+		BAD009492053883C00071C0C /* WXRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD009432053883C00071C0C /* WXRouter.m */; };
+		BAD0094A2053883C00071C0C /* RouterError.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD009442053883C00071C0C /* RouterError.m */; };
+		BAD0094B2053883C00071C0C /* PlistReadUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD009482053883C00071C0C /* PlistReadUtil.m */; };
+		BAD009542053884A00071C0C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD0094C2053884900071C0C /* ViewController.m */; };
+		BAD009552053884A00071C0C /* webView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD0094F2053884A00071C0C /* webView.m */; };
+		BAD009562053884A00071C0C /* view3.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD009502053884A00071C0C /* view3.m */; };
+		BAD009572053884A00071C0C /* view2.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD009512053884A00071C0C /* view2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,9 +43,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1854EC591E21185A00AE4E91 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = test.app; path = "/Users/apple/Downloads/router/build/Debug-iphoneos/test.app"; sourceTree = "<absolute>"; };
-		1854EC5A1E21185A00AE4E91 /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = testTests.xctest; path = "/Users/apple/Downloads/router/build/Debug-iphoneos/testTests.xctest"; sourceTree = "<absolute>"; };
-		1854EC5B1E21185A00AE4E91 /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = testUITests.xctest; path = "/Users/apple/Downloads/router/build/Debug-iphoneos/testUITests.xctest"; sourceTree = "<absolute>"; };
 		1854EC601E2118A300AE4E91 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1854EC611E2118A300AE4E91 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1854EC621E2118A300AE4E91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,23 +50,26 @@
 		1854EC661E2118A300AE4E91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1854EC671E2118A300AE4E91 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1854EC681E2118A300AE4E91 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1854EC691E2118A300AE4E91 /* PlistReadUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlistReadUtil.h; path = ../PlistReadUtil.h; sourceTree = "<group>"; };
-		1854EC6A1E2118A300AE4E91 /* PlistReadUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlistReadUtil.m; path = ../PlistReadUtil.m; sourceTree = "<group>"; };
-		1854EC6B1E2118A300AE4E91 /* RouterError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RouterError.h; path = ../RouterError.h; sourceTree = "<group>"; };
-		1854EC6C1E2118A300AE4E91 /* RouterError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RouterError.m; path = ../RouterError.m; sourceTree = "<group>"; };
 		1854EC6D1E2118A300AE4E91 /* urlMap.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = urlMap.plist; sourceTree = "<group>"; };
-		1854EC6E1E2118A300AE4E91 /* view2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = view2.h; path = ../test/view2.h; sourceTree = "<group>"; };
-		1854EC6F1E2118A300AE4E91 /* view2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = view2.m; path = ../test/view2.m; sourceTree = "<group>"; };
-		1854EC701E2118A300AE4E91 /* view3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = view3.h; path = ../test/view3.h; sourceTree = "<group>"; };
-		1854EC711E2118A300AE4E91 /* view3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = view3.m; path = ../test/view3.m; sourceTree = "<group>"; };
-		1854EC721E2118A300AE4E91 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../test/ViewController.h; sourceTree = "<group>"; };
-		1854EC731E2118A300AE4E91 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../test/ViewController.m; sourceTree = "<group>"; };
-		1854EC741E2118A300AE4E91 /* webView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = webView.h; path = ../test/webView.h; sourceTree = "<group>"; };
-		1854EC751E2118A300AE4E91 /* webView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = webView.m; path = ../test/webView.m; sourceTree = "<group>"; };
-		1854EC761E2118A300AE4E91 /* WXRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WXRouter.h; path = test/WXRouter.h; sourceTree = SOURCE_ROOT; };
-		1854EC771E2118A300AE4E91 /* WXRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WXRouter.m; path = test/WXRouter.m; sourceTree = SOURCE_ROOT; };
 		1854EC791E2118A300AE4E91 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1854EC7C1E2118A300AE4E91 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAD0093E205387C200071C0C /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAD0093F205387C200071C0C /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAD00940205387C200071C0C /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAD009432053883C00071C0C /* WXRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXRouter.m; sourceTree = "<group>"; };
+		BAD009442053883C00071C0C /* RouterError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouterError.m; sourceTree = "<group>"; };
+		BAD009452053883C00071C0C /* PlistReadUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlistReadUtil.h; sourceTree = "<group>"; };
+		BAD009462053883C00071C0C /* RouterError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouterError.h; sourceTree = "<group>"; };
+		BAD009472053883C00071C0C /* WXRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXRouter.h; sourceTree = "<group>"; };
+		BAD009482053883C00071C0C /* PlistReadUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlistReadUtil.m; sourceTree = "<group>"; };
+		BAD0094C2053884900071C0C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BAD0094D2053884900071C0C /* view3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = view3.h; sourceTree = "<group>"; };
+		BAD0094E2053884A00071C0C /* view2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = view2.h; sourceTree = "<group>"; };
+		BAD0094F2053884A00071C0C /* webView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = webView.m; sourceTree = "<group>"; };
+		BAD009502053884A00071C0C /* view3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = view3.m; sourceTree = "<group>"; };
+		BAD009512053884A00071C0C /* view2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = view2.m; sourceTree = "<group>"; };
+		BAD009522053884A00071C0C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BAD009532053884A00071C0C /* webView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = webView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +100,15 @@
 		1854EC5F1E2118A300AE4E91 /* test */ = {
 			isa = PBXGroup;
 			children = (
-				1854EC901E2118D800AE4E91 /* WXRouter */,
-				1854EC911E2118F700AE4E91 /* demo */,
+				BAD0094E2053884A00071C0C /* view2.h */,
+				BAD009512053884A00071C0C /* view2.m */,
+				BAD0094D2053884900071C0C /* view3.h */,
+				BAD009502053884A00071C0C /* view3.m */,
+				BAD009522053884A00071C0C /* ViewController.h */,
+				BAD0094C2053884900071C0C /* ViewController.m */,
+				BAD009532053884A00071C0C /* webView.h */,
+				BAD0094F2053884A00071C0C /* webView.m */,
+				BAD009422053883C00071C0C /* WXRouter */,
 				1854EC601E2118A300AE4E91 /* AppDelegate.h */,
 				1854EC611E2118A300AE4E91 /* AppDelegate.m */,
 				1854EC621E2118A300AE4E91 /* Assets.xcassets */,
@@ -130,42 +137,29 @@
 			path = testUITests;
 			sourceTree = "<group>";
 		};
-		1854EC901E2118D800AE4E91 /* WXRouter */ = {
-			isa = PBXGroup;
-			children = (
-				1854EC761E2118A300AE4E91 /* WXRouter.h */,
-				1854EC771E2118A300AE4E91 /* WXRouter.m */,
-				1854EC691E2118A300AE4E91 /* PlistReadUtil.h */,
-				1854EC6A1E2118A300AE4E91 /* PlistReadUtil.m */,
-				1854EC6B1E2118A300AE4E91 /* RouterError.h */,
-				1854EC6C1E2118A300AE4E91 /* RouterError.m */,
-			);
-			path = WXRouter;
-			sourceTree = "<group>";
-		};
-		1854EC911E2118F700AE4E91 /* demo */ = {
-			isa = PBXGroup;
-			children = (
-				1854EC6E1E2118A300AE4E91 /* view2.h */,
-				1854EC6F1E2118A300AE4E91 /* view2.m */,
-				1854EC701E2118A300AE4E91 /* view3.h */,
-				1854EC711E2118A300AE4E91 /* view3.m */,
-				1854EC721E2118A300AE4E91 /* ViewController.h */,
-				1854EC731E2118A300AE4E91 /* ViewController.m */,
-				1854EC741E2118A300AE4E91 /* webView.h */,
-				1854EC751E2118A300AE4E91 /* webView.m */,
-			);
-			name = demo;
-			path = ../demo;
-			sourceTree = "<group>";
-		};
 		18A2DCFA1D9FC5C600814EDE = {
 			isa = PBXGroup;
 			children = (
 				1854EC5F1E2118A300AE4E91 /* test */,
 				1854EC781E2118A300AE4E91 /* testTests */,
 				1854EC7B1E2118A300AE4E91 /* testUITests */,
+				BAD0093E205387C200071C0C /* test.app */,
+				BAD0093F205387C200071C0C /* testTests.xctest */,
+				BAD00940205387C200071C0C /* testUITests.xctest */,
 			);
+			sourceTree = "<group>";
+		};
+		BAD009422053883C00071C0C /* WXRouter */ = {
+			isa = PBXGroup;
+			children = (
+				BAD009432053883C00071C0C /* WXRouter.m */,
+				BAD009442053883C00071C0C /* RouterError.m */,
+				BAD009452053883C00071C0C /* PlistReadUtil.h */,
+				BAD009462053883C00071C0C /* RouterError.h */,
+				BAD009472053883C00071C0C /* WXRouter.h */,
+				BAD009482053883C00071C0C /* PlistReadUtil.m */,
+			);
+			path = WXRouter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,7 +179,7 @@
 			);
 			name = test;
 			productName = test;
-			productReference = 1854EC591E21185A00AE4E91 /* test.app */;
+			productReference = BAD0093E205387C200071C0C /* test.app */;
 			productType = "com.apple.product-type.application";
 		};
 		18A2DD1B1D9FC5C600814EDE /* testTests */ = {
@@ -203,7 +197,7 @@
 			);
 			name = testTests;
 			productName = testTests;
-			productReference = 1854EC5A1E21185A00AE4E91 /* testTests.xctest */;
+			productReference = BAD0093F205387C200071C0C /* testTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		18A2DD261D9FC5C600814EDE /* testUITests */ = {
@@ -221,7 +215,7 @@
 			);
 			name = testUITests;
 			productName = testUITests;
-			productReference = 1854EC5B1E21185A00AE4E91 /* testUITests.xctest */;
+			productReference = BAD00940205387C200071C0C /* testUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -305,15 +299,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1854EC891E2118A300AE4E91 /* ViewController.m in Sources */,
-				1854EC881E2118A300AE4E91 /* view3.m in Sources */,
-				1854EC841E2118A300AE4E91 /* PlistReadUtil.m in Sources */,
+				BAD009572053884A00071C0C /* view2.m in Sources */,
+				BAD009562053884A00071C0C /* view3.m in Sources */,
+				BAD009542053884A00071C0C /* ViewController.m in Sources */,
+				BAD009492053883C00071C0C /* WXRouter.m in Sources */,
+				BAD0094B2053883C00071C0C /* PlistReadUtil.m in Sources */,
 				1854EC831E2118A300AE4E91 /* main.m in Sources */,
+				BAD009552053884A00071C0C /* webView.m in Sources */,
 				1854EC7E1E2118A300AE4E91 /* AppDelegate.m in Sources */,
-				1854EC8A1E2118A300AE4E91 /* webView.m in Sources */,
-				1854EC8B1E2118A300AE4E91 /* WXRouter.m in Sources */,
-				1854EC851E2118A300AE4E91 /* RouterError.m in Sources */,
-				1854EC871E2118A300AE4E91 /* view2.m in Sources */,
+				BAD0094A2053883C00071C0C /* RouterError.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
